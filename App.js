@@ -16,7 +16,8 @@ export default function App() {
   return (
    <>
      <View style = {styles.container}>
-     <Button title="Show Component" onPress={()=>{setShow(true)}} />
+      {/* Toggle Buttons */}
+     <Button title="Show Component" onPress={()=>{setShow(!show)}} />
       
      </View>
 
